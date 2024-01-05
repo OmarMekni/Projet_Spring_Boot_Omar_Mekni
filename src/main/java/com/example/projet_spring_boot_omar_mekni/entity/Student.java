@@ -21,5 +21,9 @@ public class Student {
     private String specialite;
 
 
-
+    public Student(String prenom, String nom, String specialite) {
+        this.prenom = prenom;
+        this.nom = nom;
+        this.specialite = specialite;
+    }
 }

@@ -20,11 +20,13 @@ public class StudentServiceImpl implements StudentService {
         this.studentRepository = studentRepository;
     }
 
+    // SALVARE STUDENTE ///////////////////////////////////////////////////////////////
     @Override
     public Student saveStudent(Student student) {
         return studentRepository.save(student);
     }
 
+    // CERCARE PER ID ///////////////////////////////////////////////////////////////
     @Override
     public Student findStudentById(int id) {
         Student student = null;
@@ -40,6 +42,7 @@ public class StudentServiceImpl implements StudentService {
         return student;
     }
 
+    // CANCELLARE PER ID ///////////////////////////////////////////////////////////////
     @Override
     public boolean deleteStudentById(int id) {
         Student student = null;
@@ -56,6 +59,7 @@ public class StudentServiceImpl implements StudentService {
 
     }
 
+    // VISUALIZZARE LA LISTA DI STUDENTI ///////////////////////////////////////////////////////////////
     @Override
     public List<Student> findAll() {
         return studentRepository.findAll();
