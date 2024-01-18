@@ -42,7 +42,7 @@ public class ConfigStart implements CommandLineRunner {
         Student student9 = new Student("Nicola", "Mammelli", "Informatique");
         Student student10 = new Student("Tommaso", "Civali", "Programmation");
 
-        // Sauvegarder tous les éléments avec confirmation -----
+        // Sauvegarder tous les éléments avec confirmation
         entityManager.persist(student1);
         entityManager.persist(student2);
         entityManager.persist(student3);
