@@ -14,7 +14,7 @@
     <name>Projet_Spring_Boot_Omar_Mekni</name>
     <description>Projet_Spring_Boot_Omar_Mekni</description>
     <properties>
-        <java.version>11</java.version>
+        <java.version>21</java.version>
     </properties>
     <dependencies>
         <dependency>
