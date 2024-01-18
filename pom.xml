@@ -11,7 +11,7 @@
     <groupId>com.example</groupId>
     <artifactId>Projet_Spring_Boot_Omar_Mekni</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging> <!-- Modifica qui per specificare il packaging WAR -->
+    <packaging>war</packaging>
     <name>Projet_Spring_Boot_Omar_Mekni</name>
     <description>Projet_Spring_Boot_Omar_Mekni</description>
     <properties>
