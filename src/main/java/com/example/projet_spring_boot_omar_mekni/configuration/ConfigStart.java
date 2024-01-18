@@ -30,7 +30,7 @@ public class ConfigStart implements CommandLineRunner {
     @Transactional
     public void createStudent() {
 
-        // Creation des 10 étudiants
+        // Creation des 10 étudiants -------------
         Student student1 = new Student("Marco", "De Biasi", "Programmation");
         Student student2 = new Student("Francesco", "Marchisio", "Biologie");
         Student student3 = new Student("Sofia", "Liati", "Informatique");
