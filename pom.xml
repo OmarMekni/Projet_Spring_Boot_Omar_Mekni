@@ -28,7 +28,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- Aggiungi questa dipendenza per escludere Tomcat incorporato -->
+        <!-- Aggiungi questa dipendenza per escludere Tomcat  -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
