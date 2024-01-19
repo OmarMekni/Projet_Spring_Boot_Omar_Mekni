@@ -27,7 +27,7 @@ public class StudentControleur {
         boolean deleted = studentService.deleteStudentById(id);
         if(deleted)
         {
-            return ResponseEntity.ok("L'étudiant avec l'Id " + id + " est supprimé!!");
+            return ResponseEntity.ok("L'étudiant avec l'Id " + id + " est supprimé!");
         }
         else
         {
